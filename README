@@ -1,0 +1,20 @@
+turtle chat
+
+usage:	python client.py [IP address] [port]
+
+default port is 55225
+if no IP is specified, your IP will be the chatroom
+if an IP is specified, but there is no one hosting on it, your IP will be the chatroom
+
+commands:
+/nick [newname]
+/leave
+/clear
+/exec [command] (eg. "/exec bash") for shell+chat
+
+future:
+more than two people
+direct connect without port forwarding
+"chaining" of IP addresses
+tighter shell integration
+compatibility with cciollaro's chat
