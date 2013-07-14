@@ -10,6 +10,7 @@ commands:
 /nick [newname]
 /leave
 /clear
+/buzz
 /exec [command] (eg. "/exec bash") for shell+chat
 
 future:

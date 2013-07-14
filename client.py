@@ -59,7 +59,10 @@ def exec_commands(command, a):
         old_name = my_name
         my_name = command[5:]
         print GREEN+"you are now known as "+PINK+my_name+ENDC
-        a.send(GREEN+old_name+' is now known as '+YELLOW+my_name)
+        a.send(GREEN+old_name+' is now known as '+YELLOW+my_name+ENDC)
+    elif (command[0:4] == 'buzz'):
+        print GREEN+"You have requested the groups attention!"+ENDC
+        a.send(YELLOW+my_name+GREEN+' is requesting your attention!'+ENDC)
     elif (command[0:5] == 'leave'):
         exit()
     elif (command[0:5] == 'clear'):
